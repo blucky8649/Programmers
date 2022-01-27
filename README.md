@@ -1,4 +1,5 @@
-![programmers-logo-dark](https://user-images.githubusercontent.com/83625797/151346948-9ea5f166-9f6b-4309-99a9-e27d56960da0.png)
+
+<div align=center> <img src="https://user-images.githubusercontent.com/83625797/151346948-9ea5f166-9f6b-4309-99a9-e27d56960da0.png"> </div>
 
 # :book: Programmers 문제 풀이
 ![sadf](https://img.shields.io/github/languages/top/blucky8649/Programmers)
