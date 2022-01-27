@@ -1,6 +1,7 @@
 package Kakao_Internship_2020.수식최대화
 
 import java.lang.IllegalArgumentException
+import java.util.*
 import kotlin.math.abs
 
 class Solution {
@@ -17,6 +18,7 @@ class Solution {
         )
 
         for (case in priority) {
+            println(Arrays.toString(case))
             answer = dfs(expression, 0, case).let { if(abs(it) > answer) {
                 abs(it)
             } else answer }
@@ -31,11 +33,10 @@ class Solution {
         var result : Long? = null
         for (token in tokens) {
             val value = dfs(token, depth + 1, case)
-
             result = if (result == null) {
                 value
             } else {
-                calc(result, dfs(token, depth + 1, case), case[depth])
+                calc(result, value, case[depth])
             }
         }
         return result!!
