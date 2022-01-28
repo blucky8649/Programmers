@@ -3,7 +3,7 @@ package Kakao_Internship_2020.보석_쇼핑
 class Solution {
     fun solution(gems: Array<String>): IntArray {
         var answer = IntArray(2)
-        //1. 보석 종류의 개수 구하기 Using 'SET'
+        // 보석 종류의 개수 구하기 Using 'SET'
         val set = HashSet<String>()
 
         for (gem in gems) {
