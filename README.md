@@ -7,3 +7,4 @@
 ## :pencil2: 2020 카카오 인턴십
 * [[Level 1] 키패드 누르기](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Internship_2020/%ED%82%A4%ED%8C%A8%EB%93%9C_%EB%88%84%EB%A5%B4%EA%B8%B0)
 * [[Level 2] 수식 최대화](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Internship_2020/%EC%88%98%EC%8B%9D%EC%B5%9C%EB%8C%80%ED%99%94)
+* [[Level 3] 보석 쇼핑](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Internship_2020/%EB%B3%B4%EC%84%9D_%EC%87%BC%ED%95%91)
