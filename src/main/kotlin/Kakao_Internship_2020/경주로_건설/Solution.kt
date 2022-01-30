@@ -9,17 +9,18 @@ class Solution {
     private val dy = arrayOf(-1, 0, 1, 0)
     private val dx = arrayOf(0, 1, 0, -1)
     private var answer = Integer.MAX_VALUE
-
+    private var R = 0
+    private var C = 0
     fun solution(board: Array<IntArray>): Int {
         map = board // static영역에서 꺼내쓰기 위한 얕은복사
+        R = map.size ; C = map[0].size
+
         isVisited = Array(4) {Array (board.size) {Array (board[0].size) {false}} }
         BFS(0, 0)
         return answer
     }
 
     fun BFS(x : Int, y : Int){
-        val R = map.size
-        val C = map[0].size
         val q : Queue<Dot> = LinkedList<Dot>()
         q.offer(Dot(x, y, -1, 0))
         /** initialize a Array **/
@@ -41,7 +42,7 @@ class Solution {
 
                 if (ny < 0 || ny >= R || nx < 0 || nx >= C || map[ny][nx] == 1) continue
                 val new_cost = cur.sum + calc(cur.dir, i)
-                // 가본적이 없거나, 가봤더라도 최단기록을 갱신할 수 있는 곳이어야 함
+                // 가본적이 없거나, 가봤더라도 최소 비용을 갱신할 수 있는 길이어야 함
                 if (new_cost > map[ny][nx] && isVisited[i][ny][nx]) continue
                 q.offer(Dot(nx, ny, i, new_cost))
                 isVisited[i][ny][nx] = true
@@ -50,9 +51,6 @@ class Solution {
         }
     }
 
-    fun calc(cur_dir : Int, next_dir : Int) : Int {
-        return if (cur_dir == -1 || cur_dir == next_dir) 100
-        else 600
-    }
+    fun calc(cur_dir : Int, next_dir : Int) : Int = if (cur_dir == -1 || cur_dir == next_dir) 100 else 600
 }
 data class Dot(val x : Int, val y : Int, val dir : Int, val sum : Int)
