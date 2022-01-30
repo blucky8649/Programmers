@@ -15,7 +15,7 @@ class Solution {
         map = board // static영역에서 꺼내쓰기 위한 얕은복사
         R = map.size ; C = map[0].size
 
-        isVisited = Array(4) {Array (board.size) {Array (board[0].size) {false}} }
+        isVisited = Array(4) {Array (R) {Array (C) {false}} }
         BFS(0, 0)
         return answer
     }
