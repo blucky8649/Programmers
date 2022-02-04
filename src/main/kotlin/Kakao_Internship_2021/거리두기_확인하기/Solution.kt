@@ -37,7 +37,7 @@ class Solution {
         val isVisited = Array(5) {BooleanArray(5)}
         val q : Queue<Dot> = LinkedList<Dot>()
         val new_map = Array(5) {Array(5) {""} }
-        
+
         /** 1차원 String 배열을 2차원 배열로 변환 **/
         for (i in 0 until 5) {
             for (j in 0 until 5) {
