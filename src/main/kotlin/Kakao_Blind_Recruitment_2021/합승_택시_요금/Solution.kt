@@ -30,7 +30,7 @@ class Solution {
         }
         return answer
     }
-    // 다익스트라: start 에서 end까지 가는 최소 비용을 리턴함
+
     fun dijkstra(start: Int, n: Int): IntArray {
         val q = PriorityQueue<Node>()
         val isVisited = BooleanArray(n + 1)
