@@ -4,6 +4,7 @@ import kotlin.math.*
 import java.util.*
 
 const val INF = 1_000_000_000
+
 class Solution {
 
     companion object {
@@ -11,6 +12,7 @@ class Solution {
         val dr = arrayOf(-1, 0, 1, 0)
         val dc = arrayOf(0, 1, 0, -1)
     }
+
     fun permutation(src: Point): Int {
         var res = INF
         for (idxCard in 1..6) {
@@ -43,6 +45,7 @@ class Solution {
 
         return if (res == INF) 0 else res
     }
+
     fun BFS(start: Point, end: Point): Int {
         val q: Queue<Point> = LinkedList<Point>()
         val isVisited = Array(4) { BooleanArray(4) }
@@ -81,6 +84,7 @@ class Solution {
         }
         return INF
     }
+
     fun inRange(row: Int, col: Int) = (row in 0..3 && col in 0..3)
     fun solution(board: Array<IntArray>, r: Int, c: Int): Int {
         Board = board
@@ -88,4 +92,5 @@ class Solution {
         return permutation(src)
     }
 }
+
 data class Point(val row: Int, val col: Int, val cnt: Int)
