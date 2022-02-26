@@ -128,3 +128,4 @@ data class Info(val c: Int, val r: Int, val type: Int) : Comparable<Info> {
         return c - o.c
     }
 }
+
