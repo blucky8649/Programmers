@@ -32,7 +32,6 @@ class Solution {
 
         var visited = isVisited
 
-        // 1. pos위치에서 dist[dist.size - depth]만큼 간다면 얼마만큼 갈 수 있을 지 작성
         for (i in Weak.indices) {
             // pos 에서 nextposition 만큼 갈 수 있는지 탐색
             val nextPos = (pos + i) % Weak.size
@@ -64,9 +63,10 @@ class Solution {
 
         // 모든 지역을 커버하지 못했다면, 다른 사람을 추가적으로 보내야한다.
         for (i in Weak.indices) {
-            // 만약 이미 방문한 곳이라면 넘긴다.
 
+            // 만약 이미 방문한 곳이라면 넘긴다.
             if (visited and (1 shl i) != 0) continue
+            // 다음 취약 구간에 다음 인력 배치
             solve(depth + 1, i, visited)
         }
     }
