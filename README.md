@@ -20,6 +20,7 @@
 ### ✏️ 2020 카카오 블라인드 채용
 * [[Level 3] 자물쇠와 열쇠](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Blind_Recruitment_2020/%EC%9E%90%EB%AC%BC%EC%87%A0%EC%99%80_%EC%97%B4%EC%87%A0)
 * [[Level 3] 기둥과 보 설치](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Blind_Recruitment_2020/%EA%B8%B0%EB%91%A5%EA%B3%BC_%EB%B3%B4_%EC%84%A4%EC%B9%98)
+* [[Level 3] 외벽 점검](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Blind_Recruitment_2020/%EC%99%B8%EB%B2%BD_%EC%A0%90%EA%B2%80)
 
 ### :pencil2: 2020 카카오 인턴십
 * [[Level 1] 키패드 누르기](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Internship_2020/%ED%82%A4%ED%8C%A8%EB%93%9C_%EB%88%84%EB%A5%B4%EA%B8%B0)
