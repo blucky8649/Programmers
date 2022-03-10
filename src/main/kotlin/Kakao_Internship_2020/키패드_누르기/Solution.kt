@@ -1,7 +1,6 @@
 package Kakao_Internship_2020.키패드_누르기
 
 import java.lang.StringBuilder
-import java.util.*
 import kotlin.math.abs
 
 class Solution {

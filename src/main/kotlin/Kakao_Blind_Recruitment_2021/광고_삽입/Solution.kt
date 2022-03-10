@@ -1,7 +1,5 @@
 package Kakao_Blind_Recruitment_2021.광고_삽입
 
-import java.util.*
-
 class Solution {
     fun solution(play_time: String, adv_time: String, logs: Array<String>): String {
         val pt = convertToSeconds(play_time) // 플레이 타임 초 환산
