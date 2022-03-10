@@ -28,6 +28,10 @@
 * [[Level 3] 보석 쇼핑](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Internship_2020/%EB%B3%B4%EC%84%9D_%EC%87%BC%ED%95%91)
 * [[Level 3] 경주로 건설](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Internship_2020)
 
+## ✏️ 2019 카카오 인턴십
+* [[Level 3] 징검다리 건너기](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Internship_2019/징검다리_건너기)  
+
+
 ## 💙 Summer / Winter Coding
 ### ✏️ 2018년 기출
 * [[Level 3] 스티커 모으기(2)](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Summer_Winter_Coding/%EC%8A%A4%ED%8B%B0%EC%BB%A4_%EB%AA%A8%EC%9C%BC%EA%B8%B0)
