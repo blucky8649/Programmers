@@ -27,7 +27,7 @@ class Solution {
             // 이전 바위에서 도착지 까지의 거리도 계산하여 cnt 해준다.
             if (distance - prev < mid) cnt++
 
-            // 만약
+
             if (cnt <= n) {
                 answer = max(answer, mid)
                 min = mid + 1
