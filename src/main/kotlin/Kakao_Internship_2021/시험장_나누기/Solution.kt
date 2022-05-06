@@ -10,7 +10,6 @@ class Solution {
     var count = 0
     var root = -1
     fun solution(k: Int, num: IntArray, links: Array<IntArray>): Int {
-        var answer: Int = 0
         parent = IntArray(num.size) { -1 }
         tree = Array(num.size) { Node(-1, -1) }
         links.forEachIndexed { i, link ->
