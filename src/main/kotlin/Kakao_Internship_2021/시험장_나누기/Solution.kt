@@ -77,4 +77,5 @@ class Solution {
         return num[cur]
     }
 }
+
 data class Node(val left: Int, val right: Int)
