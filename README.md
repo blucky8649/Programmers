@@ -24,6 +24,10 @@
 * [[Level 3] 기둥과 보 설치](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Blind_Recruitment_2020/%EA%B8%B0%EB%91%A5%EA%B3%BC_%EB%B3%B4_%EC%84%A4%EC%B9%98)
 * [[Level 3] 외벽 점검](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Blind_Recruitment_2020/%EC%99%B8%EB%B2%BD_%EC%A0%90%EA%B2%80)
 
+### ✏️ 2019 카카오 블라인드 채용
+* [[Level 2] 후보키](https://github.com/blucky8649/Programmers/blob/master/src/main/kotlin/Kakao_Blind_Recruitment_2019/%ED%9B%84%EB%B3%B4%ED%82%A4/readme.md)
+* [[Level 3] 길 찾기 게임](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Blind_Recruitment_2019/%EA%B8%B8_%EC%B0%BE%EA%B8%B0_%EA%B2%8C%EC%9E%84)
+
 ### :pencil2: 2020 카카오 인턴십
 * [[Level 1] 키패드 누르기](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Internship_2020/%ED%82%A4%ED%8C%A8%EB%93%9C_%EB%88%84%EB%A5%B4%EA%B8%B0)
 * [[Level 2] 수식 최대화](https://github.com/blucky8649/Programmers/tree/master/src/main/kotlin/Kakao_Internship_2020/%EC%88%98%EC%8B%9D%EC%B5%9C%EB%8C%80%ED%99%94)
